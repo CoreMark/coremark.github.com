@@ -88,6 +88,17 @@ http://chxt6896.github.io/blog/2012/02/13/blog-jekyll-native.html
 
 至此，本地调式也Okay了。
 
+Apply the twitter Theme
+
+To install, run the following rake task in the root of your Jekyll-Bootstrap directory.
+rake theme:install git="https://github.com/jekyllbootstrap/theme-twitter.git"
+
+http://themes.jekyllbootstrap.com/preview/twitter/lessons/2011/12/29/jekyll-introduction/
+
+期间遇到的问题： Rake theme install fails.
+call 不到git, 解决办法就是把git设置到环境变量里面。
+https://github.com/plusjade/jekyll-bootstrap/issues/38
+
 -------------------------华丽的分隔符-----------------------------------
 
 关于这part,还有option :  Portable Python
