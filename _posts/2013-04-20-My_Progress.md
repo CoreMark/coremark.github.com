@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My progress"
+title: "My progress to Configue this blog System"
 description: ""
 category: Building
 tags: [Jekyll]
