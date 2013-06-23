@@ -9,10 +9,10 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : 蛋疼的家伙
+title : 穷乡僻野之所
 tagline: Site Tagline
 author :
-  name : Mark Lam
+  name : Mark Lin
   email : wenbiao2012@gmail.com
   github : CoreMark
   twitter : username
@@ -125,4 +125,8 @@ JB :
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
-  
+  #
+
+# Set up rdiscound 
+# http://jekyllrb.com/docs/extras/
+markdown: rdiscount

@@ -18,6 +18,7 @@ tags: [Jekyll]
 
 > 顺理成章进入： [Zero to Hosted Jekyll Blog in 3 Minutes](http://jekyllbootstrap.com/)
 
+<!--more-->
 ### 折腾了大半天，大概做了这么些动作。
 1. 重新gen了 ～/.ssh/id_rsa.pub, 于github 添加了公钥，从此push/pull畅通无阻了。    
 Github - [Generating SSH Keys](https://help.github.com/articles/generating-ssh-keys)
@@ -34,6 +35,8 @@ Github - [Generating SSH Keys](https://help.github.com/articles/generating-ssh-k
         PreferredAuthentications publickey
         IdentityFile ~/.ssh/id_rsa
         Port 443
+
+
 
 _相关链接_
 > [github连接出现Bad file number问题](http://rangercyh.blog.51cto.com/1444712/749490)

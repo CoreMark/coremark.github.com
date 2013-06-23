@@ -14,14 +14,20 @@
     <!-- Le styles -->
     <link href="{{ ASSET_PATH }}/css/1.4.0/bootstrap.css" rel="stylesheet">
     <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+    
+    <!-- Google Prettify CSS: BEG-->
+    <link href="{{ ASSET_PATH }}/google-code-prettify/prettify.css" rel="stylesheet" type="text/css" media="all"> 
+    <!-- Google Pretty CSS: END -->
 
     <!-- Le fav and touch icons -->
-  <!-- Update these with your own images
-    <link rel="shortcut icon" href="images/favicon.ico">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+  <!-- Update these with your own images -->
+    <link rel="shortcut icon" href="{{ ASSET_PATH }}/images/www.ico.la_6_16X16_1371972328.ico">
+    <link rel="Bookmark" href="{{ ASSET_PATH }}/images/www.ico.la_6_16X16_1371972328.ico">
+   
+   <!-- <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-  -->
+    -->
   </head>
 
   <body>
@@ -54,6 +60,20 @@
 
     </div> <!-- /container -->
 
+    <script type="text/javascript" src="{{ ASSET_PATH }}/js/jquery-2.0.0.min.js"></script>
+    <script type="text/javascript" src="{{ ASSET_PATH }}/google-code-prettify/prettify.js"></script>
+    <script type="text/javascript">
+      $(function(){
+        $("pre").addClass("prettyprint linenums");
+        prettyPrint();
+        $('.entry a').each(function(){
+          if($(this).attr("href").indexOf("heiniuhaha") == -1){
+            $(this).attr("target", "_blank");
+          }
+        })
+      });
+    </script>
+    
     {% include JB/analytics %}
   </body>
 </html>
